@@ -1,0 +1,125 @@
+.banner{
+    width: 100%;
+    height: 150px;
+  background-image: url(img/banner-1.jpg);
+    
+}
+.banner-2{
+    width: 100%;
+    height: 400px;
+  background-image:linear-gradient(45deg, rgba(56, 50, 48, 0.459)0%, rgba(43, 20, 17, 0.404) 42%), url(img/banner-1.jpg);
+   background-position: center;
+   background-size: cover; 
+   background-repeat: repeat;
+}
+.menu-1{
+    width: 90%;
+    height: 130px;
+    border:2px white solid;
+    float: left;
+    margin: 0.5% 5%;
+}
+.title{
+    font-family: 'Sacramento', cursive;
+    font-size:4rem;
+}
+.img{
+    height: 100%;
+    width: 20%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.content{
+    width: 70%;
+
+}
+.line{
+    width: 2px;
+    height: 100%;
+    background: black;
+    float: left;
+}
+.do{
+    margin-top: 2rem;
+    float: left;
+    font-size: 150%;
+}
+.box{
+    float: left;
+    width: 90%;
+    height: 90%;
+    border: white 2px solid;
+    margin: 1% 5%;
+}
+.box-1{
+   margin-left: 7px;
+    height: 100px;
+    border: solid rgb(156, 35, 35) 2px;
+}
+button{
+    
+}
+.row-1{
+    /* background:firebrick; */
+    width: 60%;
+position: relative;
+top: 20%;
+left: 20%;
+}
+.title-2{
+    font-family: 'Poiret One', cursive;
+  font-size: 2rem;
+}
+.logo{
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+   
+}
+.box3{
+    width: 90%;
+    height: 100px;
+    background: firebrick;
+}
+.title-logo{
+    text-decoration: none;
+}
+.title-logo:hover{
+    color: gold;
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: none;
+}
+.content a:hover{
+    text-decoration: none;
+}
+.menu-1 a:hover{
+    text-decoration: none;
+    color: black;
+}
+.menu-1 a{
+    color: white;
+}
+@media screen and (max-width: 1200px){
+    .banner-2{
+        height: 800px;
+    }
+}
+@media screen and (max-width: 992px){
+    .banner-2{
+        height: 1200px;
+    }
+}
+@media screen and (max-width: 768px){
+    .banner-2{
+        height: 1350px;
+    }
+}
+@media screen and (max-width: 488px){
+    .banner-2{
+        height: 1400px;
+    }
+}
